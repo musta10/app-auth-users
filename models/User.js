@@ -24,6 +24,10 @@ const UserSchema = new mongoose.Schema({
     country: {
         type: String,
         required: true
+    },
+    profileImage: {
+        type: String,
+        default: ''
     }
 });
 
